@@ -1,6 +1,6 @@
 :root {
 	--color-primary: #9200ff;
-	--color-primary-opacity: rgba(var(var(--color-primary)), 0.8);
+	--color-primary-opacity: #9200ffcc;
 	--gradient-box: 1px 0px 4px var(--color-primary),
 		0px 1px 4px var(--color-primary), -1px 0px 4px var(--color-primary),
 		0px -1px 4px var(--color-primary);
