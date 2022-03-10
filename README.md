@@ -11,9 +11,7 @@
 
 ---
 
-# :Hosted:
-
-Hosted on: [netlify](https://leomssilva-e-commerce.netlify.app)
+## Hosted on: [click](https://leomssilva-e-commerce.netlify.app) :eyes:
 
 ---
 
