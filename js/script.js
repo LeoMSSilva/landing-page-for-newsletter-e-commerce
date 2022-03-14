@@ -38,19 +38,20 @@ const validation = (name, email) => {
 	return email == '' ? 'Por favor, preencha o e-mail antes de enviar!' : '';
 };
 
-const loadingRegistred = () => {
-	const contentElement = document.querySelector('#content');
-	const loading = `<p>Processando...</p>`;
-	const registeredUser = `<p>Cadastrado com sucesso!</p>`;
-	contentElement.innerHTML = loading;
-	setTimeout(() => (contentElement.innerHTML = registeredUser), 1000);
+const loadingRegistered = () => {
+	const loading = `<p class="my-auto">Processando...</p>`;
+	const registeredUser = `<p class="my-auto">Cadastrado com sucesso!</p>`;
+	form.innerHTML = loading;
+	setTimeout(() => {
+		form.innerHTML = registeredUser;
+	}, 1000);
 };
 
 const saveData = (name, email) => {
 	const data = { name, email };
 	const dataConvertedToString = JSON.stringify(data);
 	localStorage.setItem('leads', dataConvertedToString);
-	loadingRegistred();
+	loadingRegistered();
 };
 
 form.addEventListener('submit', (e) => {
