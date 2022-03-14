@@ -1,6 +1,9 @@
 <h1 align="center">Landing page for newslatters  Gama Academy
 	<br/>
+	<img src="./landing-page-for-newsletter-e-commerce.png">
+	<br/>
 </h1>
+
 
 [![Author](https://img.shields.io/badge/author-LeoMSSilva-blue?style=flat-square)](https://github.com/LeoMSSilva)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)](https://github.com/LeoMSSilva)
